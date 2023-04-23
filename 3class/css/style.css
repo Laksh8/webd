@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-size: 24px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* input{
+    width:500px;
+    background-color: yellow;
+    display: inline-block;
+    border:solid yellow;
+} */
+
+input{
+    width:500px;
+    background-color: yellow;
+    display: inline-block;
+    border:solid yellow;
+}
+ul{
+    border:5px solid;
+    list-style: none;
+    margin:0;
+    padding: 0;
+    width:500px;
+}
+li{
+    border:1px solid black;
+}
+li:first-child{
+    background-color: blueviolet;
+    color: white;
+}
+li:last-child{
+    background-color: blue;
+    color:yellowgreen
+}
+
+input[type="password"]{
+    background-color: gray;
+    color: white;
+}
+
+
+.random{
+    margin-top: 3px;
+    border:2px solid blueviolet;
+    text-align: center;
+}
+
+img{
+    width: 500px;
+    height:300px;
+} 
+
+
+
+
+
