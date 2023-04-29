@@ -1,0 +1,76 @@
+div{
+    width: 200px;
+    height:200px;
+    border: 1px solid firebrick;
+    background-color: blanchedalmond;
+}
+
+div:hover{
+    background-color: brown;
+    border-radius: 50% 0%;
+}
+
+
+li:first-child{
+    background-color: aqua;
+}
+
+li:last-child{
+    background-color: blueviolet;
+}
+li:only-child{
+    background-color: rgb(67, 207, 29);
+}
+
+li:nth-child(n+5){
+    color: blueviolet;
+}
+
+
+section{
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: steelblue;
+    color: beige;
+    margin: 100px auto;
+    font-size: 40px;
+}
+
+
+/* p:nth-child(2){
+    color:hotpink
+} */
+p:nth-of-type(2){
+    color:hotpink;
+}
+
+input:checked{
+    outline: 5px solid red;
+    /* background-color: ; */
+    color: rgb(177, 56, 225);
+    width:100px;
+    height:50px
+}
+
+
+
+
+
+a:link{
+    /* color:gray;
+    background-color: black; */
+}
+
+a:visited{
+    /* DO something */
+}
+
+a:hover{
+    /* do something */
+}
+
+
+a::before{
+    content: "😶‍🌫️" ;
+}

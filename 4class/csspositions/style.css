@@ -1,0 +1,33 @@
+.container{
+    width:100px;
+    height:100px;
+    border: 1px solid greenyellow;
+    display: inline-block;
+    color:white;       
+}
+
+#middle{
+    position: static;
+    top:100;
+    left:30;
+    /* right:90; */
+}
+
+#relative-middle{
+    position: relative;
+    top:20px;
+    left:30px;
+}
+
+#absolute-middle{
+    position: absolute;
+    top:590px;
+    left:150px;
+}
+
+#fixed-middle{
+    position: fixed;
+    top:590px;
+    left:150px;
+}
+

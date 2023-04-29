@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background-color: blue;
+    position: fixed;
+    width: 100%;
+}
+
+div{
+    display: inline-block;
+    width: 33.1%;
+    padding: 15px 0px;
+    background-color: blue;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: white;
+    padding: 30px 15px;
+    /* display: inline-block; */
+    text-decoration: none;
+}

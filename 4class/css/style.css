@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.box{
+    width:33%;
+    height:100em;
+    border:1px solid black;
+    background-color: bisque;
+    font-size: 30px;
+    text-align: center;
+    /* float:left; */
+    display: inline-block;
+}
+
+.box-1{
+    background-color: aquamarine;
+}
+
+
+.box + .box{ 
+    background-color: blueviolet;
+}
+
+.box-3{
+    background-color: chartreuse;
+}
+
+
+/* .box ~ .box General */
