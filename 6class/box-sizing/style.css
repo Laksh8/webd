@@ -1,0 +1,17 @@
+section{
+    width:80vw;
+    box-sizing: border-box;
+    height: 500px;
+    background-color: black;
+    margin: auto;
+}
+
+div{
+    width:80%; 
+    background-color: bisque;
+    min-height: 300px;
+    padding: 50px;
+}
+
+
+

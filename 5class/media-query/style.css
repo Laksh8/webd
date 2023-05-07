@@ -1,0 +1,18 @@
+section{
+    background-color: bisque;
+    color:black;
+    margin: 100px auto;
+    width: 70vw;
+    min-height: 40vh;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+h1{
+    margin: 15px;
+}
+
+p{
+    padding: 0px 50px;
+
+}

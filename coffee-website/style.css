@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    display: flex;
+    width:100vw;
+    /* min-height: ; */
+    justify-content: space-evenly;
+    background-color: black;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+
+
+section>.container{
+    background-color:black;
+    width:50%;
+    height: 100px;
+    /* border: 2px solid white; */
+    /* border-bottom: 2px solid white  ; */
+}
+
+section>:first-child{
+    width:20%;
+}
+
+
+section>:last-child{
+    width:10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+
+.avoid-background{
+    height:100px;
+}
+
+
+.background-img{
+    min-height:80vh;
+    width:100vw;
+    background: url('https://naman547.github.io/coffee-website/images/home-img.jpeg') no-repeat ;
+    background-size: cover;
+    /* background-color: blueviolet; */
+}
+
+
+section a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 15px;
+    color: white;
+    display: inline-block;
+    margin-top: 35px;
+
+}
+
+
+.shadow{
+    min-height:80vh;
+    width:100vw;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+
+
+
+
+
+.site-icons{
+    font-size: 30px;
+    color:white;
+    
+}
+
+
+
+.site-logo img{
+    width:50px;
+    height:50px;
+    padding: 25px;
+    padding-left:50px;
+}   
+
+
+.site-content{
+    display: flex;
+    width:80%;
+    height: 100% ;
+    justify-content:baseline;
+    background-color:inherit ;
+    box-sizing: border-box;
+    position: relative;
+    flex-direction: column;
+    margin: auto;
+    color:white;
+}
+
+
+
+.site-content > .heading{
+    margin-top: 100px;
+    font-size: 50px;
+    width: 50%;
+}
+
+
+.site-content > .content{
+    margin-top: 50px;
+    font-size: 20px;
+    width: 50%;
+}
+
+
+.site-content > .btn button{
+    
+    /* margin-left: 20px; */
+    background-color: blanchedalmond;
+    color: blueviolet;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+.site-content > .btn{
+    margin-top: 30px;
+    width:50%;
+}
