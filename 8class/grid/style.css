@@ -1,0 +1,39 @@
+.container{
+    width: 80vw;
+    min-height: 500px;
+    background-color: blueviolet;
+    color:white;
+    margin: 100px auto;
+    /* border: 1px solid lightgray; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+
+    gap:20px;
+    grid-auto-rows: minmax(200px,auto);
+    /* grid-template-rows: 100px 200px 100px ;   don't use it  */
+    justify-content: end;
+
+    @media all and (max-width:500px) {
+        &{
+            grid-template-columns: 1fr;
+        }
+
+        
+    }
+
+
+}
+
+.div-container{
+    padding: 10px;
+    /* margin: 10px; */
+    border: 2px solid white;
+    font-size: 20px;
+}
+
+
+.div-container:nth-child(2){
+    /* align-self: center;
+    justify-self: center; */
+}
+

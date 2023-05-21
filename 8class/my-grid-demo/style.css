@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-section{
+    
+    width:90vw;
+    margin: auto;
+    margin-top: 50px;
+    height:600px;
+    /* background-color: ; */
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    gap:10px;
+    grid-template-areas:
+    "one one two three" 
+    "four five five three"
+    ;
+}
+
+
+.cart{
+    background-color: blue;
+    border:1px solid black;
+    border-radius: 20px;
+}
+
+
+.cart-one{
+    grid-area: one;
+    background-color: purple;
+    
+}
+.cart-two{
+    grid-area:two;
+}
+.cart-three{
+    grid-area:three;
+}
+.cart-four{
+    grid-area:four;
+}
+.cart-five{
+    grid-area:five;
+}

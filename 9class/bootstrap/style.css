@@ -1,0 +1,11 @@
+h1{
+    background-color: blueviolet;
+    color: white;
+}
+
+.box{
+    height: 50px;
+    background-color: aquamarine;
+    width: 100%;
+
+}

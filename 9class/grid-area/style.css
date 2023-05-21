@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main,header,nav,footer,aside{
+    border: 2px solid black;
+    padding: 10px;
+
+}
+
+
+body{
+    /* margin-top: 20px; */
+    background-color: azure;
+    font-size: 30px;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 15vh 70vh 10vh;
+    gap:20px;
+    grid-template-areas: 
+    "header header header"
+    "nav main aside"
+    "nav footer footer"
+    ;
+
+}
+
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+main{
+    grid-area: main;
+}
+
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+}
